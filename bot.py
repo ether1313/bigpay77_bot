@@ -121,7 +121,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # Create custom keyboard (bottom buttons) - only menu options
     keyboard = [
         [
-            KeyboardButton(text="GET FREE SPIN ON ACE96AU 🎰"),
+            KeyboardButton(text="GET FREE SPIN ON BIGPAY77 🎰"),
             KeyboardButton(text="HOT GAME TIPS CHANNEL 🍒")
         ]
     ]
@@ -136,15 +136,13 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def handle_get_free_spin(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Handle GET FREE SPIN button click"""
-    promo_text = """Welcome to ACE96AU, where the rewards start instantly. 🔥
+    promo_text = """Welcome to BIGPAY77, ready to play in Australia 🇦🇺🔥
 
-🎁 Simply sign up to claim your complimentary A$96.00 bonus — no deposit needed.
-🎰 Return every day to spin our prize wheel for your chance to win up to $888 in daily prizes.
-💰 Boost your play with a 100% first-deposit match to double your funds from the start.
+🎁 Claim $100 FREE credit + $257 in bonuses.
+🎰 Start from just $10 with a 50% Welcome Bonus.
+💰 No hidden fees, just smooth and simple gameplay.
 
-👑 Enjoy regular VIP treats,
-🧧 Unlock weekly rewards up to $960 & experience straight forward bonuses with premium entertainment.
-💎 At ACE96AU, we offer top-tier fun where Australian players come to win. 🚀"""
+💎 Join BIGPAY77 today for daily rewards, exciting slots, and real fun. 🚀"""
     
     # Create inline buttons (vertical layout - each button on its own row)
     inline_keyboard = [
@@ -167,14 +165,13 @@ async def handle_get_free_spin(update: Update, context: ContextTypes.DEFAULT_TYP
 
 async def handle_hot_game_tips(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Handle HOT GAME TIPS CHANNEL button click"""
-    channel_text = """ACE96AU: Big Rewards. No Nonsense. 🎉
+    channel_text = """🇦🇺 Spin Smart. Win More. Only at BIGPAY77 🎰
 
-🎁 Sign-Up Bonus: A$96.00 FREE. No Deposit.
-🎂 Daily Chance: Spin. Win up to $131. Every Day.
-💰 First Deposit: We match 100%. Double Your Money.
-👑 VIP Perks: Daily treats & weekly rewards (up to $800).
+🎁 Claim $100 FREE credit + $257 in extra bonuses.
+🎉 Boost your start with a 50% Welcome Bonus.
+💰 Low entry — min deposit just $10.
 
-⚡️ Straightforward bonuses, premium games. That's the ACE96AU way. Join the winning side."""
+🚀 Safe play with transparent terms."""
     
     # Create inline buttons (vertical layout - each button on its own row)
     inline_keyboard = [
@@ -773,7 +770,7 @@ def main():
     application.add_error_handler(error_handler)
     
     # Start Bot
-    logger.info("Ace96 Promo Bot is starting...")
+    logger.info("Bigpay77 Promo Bot is starting...")
     application.run_polling(allowed_updates=Update.ALL_TYPES)
 
 
